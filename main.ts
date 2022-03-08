@@ -1,5 +1,10 @@
-input.onButtonPressed(Button.AB, function () {
+input.onButtonPressed(Button.A, function () {
     basic.showNumber(neuspech)
+})
+input.onButtonPressed(Button.AB, function () {
+    cislo = 0
+    body = 0
+    neuspech = 0
 })
 input.onButtonPressed(Button.B, function () {
     basic.showNumber(body)
